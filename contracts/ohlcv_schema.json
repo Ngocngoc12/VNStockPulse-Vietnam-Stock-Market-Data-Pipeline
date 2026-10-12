@@ -1,0 +1,17 @@
+{
+  "name": "ohlcv",
+  "version": "1.0.0",
+  "primary_key": ["symbol", "time", "source"],
+  "required": ["symbol", "time", "open", "high", "low", "close", "volume", "source"],
+  "fields": {
+    "symbol": "string",
+    "time": "date",
+    "open": "float",
+    "high": "float",
+    "low": "float",
+    "close": "float",
+    "volume": "integer",
+    "source": "string",
+    "collected_at": "datetime"
+  }
+}

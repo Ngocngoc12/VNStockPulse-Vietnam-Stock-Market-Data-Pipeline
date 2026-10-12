@@ -1,0 +1,9 @@
+venv/
+logs/
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+.env
+__pycache__/
+*.pyc

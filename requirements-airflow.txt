@@ -1,0 +1,6 @@
+--extra-index-url https://vnstocks.com/api/simple
+
+confluent-kafka[avro]==2.5.0
+fastavro==1.9.5
+vnstock==4.0.8
+minio==7.2.20

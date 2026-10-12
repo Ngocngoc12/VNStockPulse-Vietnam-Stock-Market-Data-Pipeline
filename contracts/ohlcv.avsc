@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "OHLCVEvent",
+  "namespace": "vnstockpulse.streaming",
+  "fields": [
+    {"name": "symbol", "type": "string"},
+    {"name": "time", "type": "string"},
+    {"name": "open", "type": "double"},
+    {"name": "high", "type": "double"},
+    {"name": "low", "type": "double"},
+    {"name": "close", "type": "double"},
+    {"name": "volume", "type": "long"},
+    {"name": "source", "type": "string"},
+    {"name": "ingested_at", "type": "string"}
+  ]
+}
